@@ -11,7 +11,7 @@ const loadTasks = () => {
               task.completed ? "checked" : ""
             } class="completedTask appearance-none w-4 h-4 border-2 border-gray-500 rounded-full cursor-pointer transition-all
                     duration-200 checked:bg-red-600 checked:border-red-600 relative" />
-            <p class="task-list ${task.completed ? "completed" : ""}">${
+            <p class="task-list flex-1 ${task.completed ? "completed" : ""}">${
       task.text
     }</p>
             <button class="hover:text-red-500 transition-colors duration-150">
